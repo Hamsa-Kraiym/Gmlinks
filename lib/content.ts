@@ -1,0 +1,12 @@
+export type Service={slug:string;title:string;description:string;image:string};
+export type CityWork={city:string;image:string;visible:boolean;order:number};
+export const services:Service[]=[
+{slug:'breaking-news',title:'Breaking News Coverage',description:'Rapid-response teams on the ground to deliver accurate, real-time news from anywhere.',image:'/assets/service-1.jpg'},
+{slug:'live-news',title:'Live News Production',description:'Live broadcasts, multi-camera productions and satellite uplink services for global news.',image:'/assets/service-2.jpg'},
+{slug:'international-production',title:'International Production',description:'High-end production for documentaries, features, TV shows and branded content worldwide.',image:'/assets/service-3.jpg'},
+{slug:'post-production',title:'Post Production & Editing',description:'Professional editing, color grading, motion graphics, sound design and finishing.',image:'/assets/service-4.jpg'},
+{slug:'satellite-live',title:'Satellite & Live Transmission',description:'Reliable satellite uplink, bonded internet and live transmission solutions.',image:'/assets/service-5.jpg'},
+{slug:'crew-equipment',title:'Crew & Equipment Solutions',description:'Experienced crews and professional equipment available in every major city.',image:'/assets/service-6.jpg'}];
+export const workCities:CityWork[]=[
+{city:'Jerusalem',image:'/images/our-work/jerusalem.png',visible:true,order:1},{city:'Cairo',image:'/images/our-work/cairo.png',visible:true,order:2},{city:'Dubai',image:'/images/our-work/dubai.png',visible:true,order:3},{city:'Istanbul',image:'/images/our-work/istanbul.png',visible:true,order:4},{city:'Doha',image:'/images/our-work/doha.png',visible:true,order:5},{city:'Beirut',image:'/images/our-work/beirut.png',visible:true,order:6},{city:'Baghdad',image:'/images/our-work/baghdad.png',visible:true,order:7},{city:'Nairobi',image:'/images/our-work/nairobi.png',visible:true,order:8},{city:'Riyadh',image:'/images/our-work/riyadh.png',visible:true,order:9},{city:'New York',image:'/images/our-work/new-york.png',visible:true,order:10},{city:'London',image:'/images/our-work/london.png',visible:true,order:11},{city:'Tokyo',image:'/images/our-work/tokyo.png',visible:true,order:12}];
+export const coverageCities=['Jerusalem','Gaza','Tel Aviv','Amman','Beirut','Damascus','Baghdad','Kuwait City','Doha','Dubai','Abu Dhabi','Muscat','Riyadh','Jeddah',"Sana'a",'Aden','Tehran','Istanbul','Ankara','Cairo','Tripoli','Benghazi','Tunis','Algiers','Rabat','Nouakchott'];

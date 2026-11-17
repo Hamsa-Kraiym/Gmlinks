@@ -1,0 +1,1 @@
+export default function StatBar(){return <div className="statBar"><div><strong>150+</strong><span>Countries Covered</span></div><div><strong>500+</strong><span>Cities Worldwide</span></div><div><strong>1000+</strong><span>Trusted Crews</span></div><div><strong>24/7</strong><span>Availability</span></div><div><strong>30+</strong><span>Years Combined Experience</span></div></div>}

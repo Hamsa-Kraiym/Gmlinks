@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# Local environment files (contain passwords)
+.env.local
+.env*.local
+
+# Vercel
+.vercel/
+
+# Directus local data (database and uploaded files)
+cms/database/
+cms/uploads/
+cms/extensions/
+
+# Server-specific file from the HostGator test
+.htaccess
+
+# Logs and OS files
+npm-debug.log*
+*.log
+.DS_Store
+Thumbs.db
